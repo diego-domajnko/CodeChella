@@ -143,6 +143,14 @@ body {
 
 
 
+/* BACKGROUND */
+.conteudo__bg {
+  background: var(--gradiente-verao);
+  height: 100vh;
+}
+
+
+
 /* BANNER */
 .banner {
   width: 100vw;

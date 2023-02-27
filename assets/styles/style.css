@@ -102,6 +102,8 @@ body {
 .cabecalho__nav {
   color: var(--branco);
   position: relative;
+  width: 100%;
+  text-align: right;
 }
 
 .nav__icone-menu::before {
@@ -111,19 +113,19 @@ body {
 
 .nav__lista {
   display: none;
-}
-
-.nav__lista--ativo {
-  position: absolute;
-  top: calc(100% + 3rem);
-  right: -1.5rem;
   background-color: var(--azul-escuro);
   padding: 1rem;
   z-index: 1;
   font-family: var(--fonte-secundaria);
+}
+
+.nav__lista--ativo {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  position: absolute;
+  top: calc(100% + 3rem);
+  right: -1.5rem;
 }
 
 .nav__item {

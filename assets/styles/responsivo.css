@@ -1,4 +1,28 @@
 @media (min-width: 768px) {
+  /* CABEÇALHO */
+  .cabecalho {
+    padding: 2rem 3.75rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .nav__icone-menu,
+  .nav__barra {
+    display: none;
+  }
+
+  .nav__lista {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .nav__item {
+    width: auto;
+  }
+
+
   /* BANNER */
   .banner {
     height: 384px;
@@ -11,6 +35,17 @@
 }
 
 @media (min-width: 1440px) {
+  /* CABEÇALHO */
+  .cabecalho {
+    padding: 2rem 7.5rem;
+    flex-direction: row;
+  }
+
+  .nav__lista {
+    gap: 2rem;
+    justify-content: flex-end;
+  }
+
   /* BANNER */
   .banner {
     height: 407px;

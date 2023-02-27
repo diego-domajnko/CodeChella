@@ -20,7 +20,7 @@
     <img src="./assets/img/logo-branco.svg" alt="CodeChella" class="cabecalho__logo">
     <nav class="cabecalho__nav">
       <i class="fa-solid fa-bars nav__icone-menu"></i>
-      <ul class="nav__lista">
+      <ul class="nav__lista hidden">
         <li class="nav__item">
           <a href="#" class="p-bold nav__link">A experiência</a>
           <i class="nav__barra"></i>
@@ -41,10 +41,10 @@
   </header>
 
   <main class="conteudo">
-    <section class="banner">
+    <div class="banner">
       <div class="banner__img" aria-label="Imagem de um brinquedo de um parque de diversão com pessoas se divertindo"></div>
       <h1 class="h7 banner__titulo">Boas-vindas ao &#35;CodeChella2023!</h1>
-    </section>
+    </div>
     <div class="conteudo__bg">
       <section class="datas">
         <div aria-label="Pessoas sorrindo e se divertindo em um festival" class="datas__img"></div>
@@ -67,9 +67,9 @@
         <div class="atracoes__cards">
           <div class="atracoes__card">
             <div class="atracoes__card__titulo">
-              <i class="atracoes__card__barra"></i>
+              <i class="atracoes__card__barra hidden"></i>
               <span class="h7 destaque destaque__verao atracoes__destaque">Sábado &#60;11/03&#62;</span>
-              <i class="atracoes__card__barra"></i>
+              <i class="atracoes__card__barra hidden"></i>
             </div>
             <div class="atracoes__card__bandas atracoes__card__destaque-enorme h2">
               <span>System of a DOM</span>
@@ -107,9 +107,9 @@
           </div>
           <div class="atracoes__card">
             <div class="atracoes__card__titulo">
-              <i class="atracoes__card__barra"></i>
+              <i class="atracoes__card__barra hidden"></i>
               <span class="h7 destaque destaque__verao atracoes__destaque">Domingo &#60;12/03&#62;</span>
-              <i class="atracoes__card__barra"></i>
+              <i class="atracoes__card__barra hidden"></i>
             </div>
             <div class="atracoes__card__bandas atracoes__card__destaque-enorme h2">
               <span>Lana Del Ploy</span>
@@ -147,9 +147,27 @@
         </div>
       </section>
     </div>
+
   </main>
 
-  <footer></footer>
+  <footer class="rodape">
+    <div class="rodape__img" aria-label="Pessoas dançando em um festival"></div>
+    <div class="rodape__conteudo">
+      <div class="rodape__redes">
+        <img src="./assets/img/logo-preto.svg" alt="CodeChella" class="rodape__logo">
+        <div class="redes-sociais">
+          <p class="p">Acesse nossas redes:</p>
+          <div class="redes-icones">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-twitch"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <p class="p copyright">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+    </div>
+  </footer>
 
   <script src="./assets/js/main.js"></script>
 </body>

@@ -1,3 +1,4 @@
+/* TABLET */
 @media (min-width: 768px) {
   /* CABEÇALHO */
   .cabecalho {
@@ -39,6 +40,7 @@
   /* DATAS */
   .datas {
     padding: 2rem 3.75rem;
+    align-items: center;
   }
 
   .datas__img {
@@ -78,8 +80,23 @@
     justify-content: center;
     gap: 2rem;
   }
+
+
+
+  /* RODAPÉ */
+  .rodape__redes{
+    gap: 1.75rem;
+  }
+
+  .redes-sociais {
+    flex-direction: row;
+  }
 }
 
+
+
+
+/* DESKTOP */
 @media (min-width: 1440px) {
   /* CABEÇALHO */
   .cabecalho {
@@ -117,5 +134,26 @@
   .atracoes__card__destaque-medio,
   .atracoes__card__destaque-baixo {
     flex-direction: row;
+  }
+
+
+
+  /* RODAPÉ */
+  .rodape__conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.75rem 7.5rem;
+  }
+
+  .rodape__redes {
+    gap: 0.5rem;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .copyright {
+    width: 330px;
+    text-align: left;
   }
 }

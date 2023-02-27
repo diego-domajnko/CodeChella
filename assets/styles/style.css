@@ -115,16 +115,25 @@ body {
   background-color: var(--roxo-boreal);
 }
 
-/* .btn__verao,
-.btn__boreal {
-  max-width: 312px;
-} */
-
 .btn__icone {
   font-size: 2rem;
   line-height: 2.5rem;
 }
 
+.destaque {
+  padding: 1rem;
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--branco);
+}
+
+.destaque__verao {
+  background-color: var(--mostarda);
+}
+
+.destaque__boreal {
+  background-color: var(--verde-escuro);
+}
 
 
 /* CABEÇALHO */
@@ -239,4 +248,45 @@ body {
   align-items: center;
   gap: 1.5rem;
   text-align: center;
+}
+
+
+
+/* ATRAÇÕES */
+.atracoes,
+.atracoes__card,
+.atracoes__card__destaque-alto,
+.atracoes__card__destaque-medio,
+.atracoes__card__destaque-baixo,
+.atracoes__card__bandas {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.atracoes {
+  text-align: center;
+  padding: 0 1.5rem;
+  gap: 0;
+}
+
+.atracoes__titulo {
+  padding: 2rem 0;
+}
+
+.atracoes__card {
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.atracoes__card__barra {
+  display: none;
+}
+
+.atracoes__destaque {
+  margin-bottom: 1rem;
+}
+
+.atracoes__card__bandas {
+  gap: 1rem;
 }

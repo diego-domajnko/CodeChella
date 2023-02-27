@@ -38,12 +38,12 @@
 
 
   /* DATAS */
-  .datas {
+  .card {
     padding: 2rem 3.75rem;
     align-items: center;
   }
 
-  .datas__img {
+  .card__img {
     width: 609px;
   }
 
@@ -119,12 +119,20 @@
 
 
   /* DATAS */
-  .datas {
+  .card {
     padding: 2rem 7.5rem;
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 3rem;
+  }
+
+  .experiencia .card:nth-child(2n) .card__img {
+    grid-column: 2/3;
+  }
+
+  .experiencia .card:nth-child(2n) .card__conteudo {
+    grid-row: 1/2;
   }
 
 

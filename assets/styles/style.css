@@ -237,14 +237,14 @@ body {
 
 
 /* DATAS */
-.datas {
+.card {
   padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.datas__img {
+.card__img {
   height: 381px;
   border-radius: 1rem;
   background-image: url(../img/img01.jpeg);
@@ -253,7 +253,7 @@ body {
   background-position: center;
 }
 
-.datas__conteudo {
+.card__conteudo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -333,4 +333,26 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+
+
+
+
+/* A EXPERIÊNCIA */
+.banner__experiencia__img {
+  background-image: url(../img/banner-experiencia.jpg);
+  background-position: top;
+}
+
+.experiencia__img-01 {
+  background-image: url(../img/img01-experiencia.jpg);
+}
+
+.experiencia__img-02 {
+  background-image: url(../img/img02-experiencia.webp);
+}
+
+.experiencia__img-03 {
+  background-image: url(../img/img03-experiencia.jpeg);
 }

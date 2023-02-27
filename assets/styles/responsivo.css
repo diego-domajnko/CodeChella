@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .banner {
+    height: 384px;
+  }
+
+  .banner__titulo {
+    font-size: 64px;
+    line-height: 83px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .banner {
+    height: 407px;
+  }
+}

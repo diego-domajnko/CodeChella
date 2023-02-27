@@ -1,0 +1,118 @@
+:root {
+  --gradiente-verao: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+  --gradiente-boreal: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+  --gradiente-roxo-profundo: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #0E0E3C;
+
+  --amarelo: #FACF9D;
+  --azul-claro: #C8DEEF;
+  --azul-escuro: #2E7BA2;
+  --mostarda: #DF9010;
+  --branco: #FFFFFF;
+  --preto: #000000;
+  --cinza: #444444;
+  --cinza-boreal: #304968;
+  --verde-boreal: #36C1A0;
+  --roxo-boreal: #4650BD;
+  --verde-escuro: #008364;
+
+  --fonte-awesome: 'Font Awesome';
+  --fonte-principal: 'Calistoga', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  font-family: var(--fonte-awesome);
+}
+
+
+/* PRÉ CONFIGURAÇÕES */
+body {
+  font-family: var(--fonte-principal);
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.h1 {
+  font-size: 64px;
+  line-height: 83px;
+}
+
+.h2 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 800;
+}
+
+.h3 {
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.h4 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.h5 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 700;
+}
+
+.h6 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+.h7 {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.p {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.p-bold {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+
+
+/* BANNER */
+.banner {
+  width: 100vw;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.banner__img {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/banner-verao.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.banner__titulo {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}

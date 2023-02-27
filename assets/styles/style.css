@@ -15,8 +15,9 @@
   --roxo-boreal: #4650BD;
   --verde-escuro: #008364;
 
-  --fonte-awesome: 'Font Awesome';
+  --fonte-awesome: 'FontAwesome';
   --fonte-principal: 'Calistoga', sans-serif;
+  --fonte-secundaria: 'Raleway', sans-serif;
 }
 
 * {
@@ -85,6 +86,57 @@ body {
   font-size: 20px;
   line-height: 40px;
   font-weight: 700;
+}
+
+
+
+/* CABEÇALHO */
+.cabecalho {
+  background-color: var(--azul-escuro);
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho__nav {
+  color: var(--branco);
+  position: relative;
+}
+
+.nav__icone-menu::before {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.nav__lista {
+  display: none;
+}
+
+.nav__lista--ativo {
+  position: absolute;
+  top: calc(100% + 3rem);
+  right: -1.5rem;
+  background-color: var(--azul-escuro);
+  padding: 1rem;
+  z-index: 1;
+  font-family: var(--fonte-secundaria);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav__item {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.nav__barra {
+  border-bottom: 1px solid var(--branco);
+  width: 146px;
 }
 
 

@@ -112,6 +112,7 @@
     display: flex;
     gap: 0;
     padding: 0;
+    width: unset;
   }
 
   .setores .card:nth-child(3) {

@@ -59,8 +59,11 @@
     margin: 0;
   }
 
+  .redes-sociais,
   .copyright {
     text-align: left;
+  }
+  .copyright {
     width: 330px;
   }
 }

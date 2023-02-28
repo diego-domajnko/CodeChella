@@ -111,6 +111,17 @@
   .perguntas-frequentes {
     padding: 3rem 3.75rem;
   }
+
+
+
+  /* INGRESSOS */
+  .ingresso__conteudo {
+    padding: 2rem 3.75rem;
+  }
+
+  .ingresso__conteudo input[type='date'] {
+    width: 453px;
+  }
 }
 
 
@@ -224,5 +235,49 @@
     width: 996px;
     margin: 0 auto;
     padding: 3rem 0;
+  }
+
+
+
+  /* INGRESSO */
+  .ingresso__conteudo {
+    width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  .ingresso__form {
+    display: grid;
+    grid-template-areas: 
+    'nome nome'
+    'email email'
+    'ingresso nascimento'
+    'btn btn'
+    ;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nome {
+    grid-area: nome;
+  }
+
+  .email {
+    grid-area: email;
+  }
+
+  .ingresso {
+    grid-area: ingresso;
+  }
+
+  .nascimento {
+    grid-area: nascimento;
+  }
+
+  .nascimento input[type="date"] {
+    width: 100%;
+  }
+
+  .btn__ingresso {
+    grid-area: btn;
   }
 }

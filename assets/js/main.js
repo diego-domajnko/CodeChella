@@ -7,7 +7,7 @@ menu.addEventListener('click', () => {
   } else {
     listaMenu.classList.remove('nav__lista--ativo');
   }
-})
+});
 
 
 const perguntas = document.querySelectorAll('.pergunta__card__titulo');

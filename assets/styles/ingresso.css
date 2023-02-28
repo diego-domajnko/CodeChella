@@ -35,6 +35,7 @@
 .btn__ingresso {
   align-self: center;
   justify-self: center;
+  cursor: pointer;
 }
 
 .btn__ingresso::after {

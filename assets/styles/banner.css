@@ -4,6 +4,7 @@
   display: flex;
   height: 270px;
   justify-content: center;
+  margin-top: 131px;
   position: relative;
 }
 
@@ -25,6 +26,7 @@
 @media (min-width: 768px) {
   .banner {
     height: 384px;
+    margin-top: 203px;
   }
 
   .banner__titulo {
@@ -37,5 +39,6 @@
 @media (min-width: 1440px) {
   .banner {
     height: 407px;
+    margin-top: 131px;
   }
 }

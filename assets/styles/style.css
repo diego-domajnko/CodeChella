@@ -149,21 +149,3 @@ body {
 .destaque__boreal {
   background-color: var(--verde-escuro);
 }
-
-.conteudo {
-  padding-top: 131px;
-}
-
-/* TABLET */
-@media (min-width: 768px) {
-  .conteudo {
-    padding-top: 203px;
-  }
-}
-
-/* DESKTOP */
-@media (min-width: 1440px) {
-  .conteudo {
-    padding-top: 131px;
-  }
-}

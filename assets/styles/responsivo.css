@@ -104,6 +104,13 @@
     height: 239px;
     width: 382px;
   }
+
+
+
+  /* INFORMAÇÕES */
+  .perguntas-frequentes {
+    padding: 3rem 3.75rem;
+  }
 }
 
 
@@ -208,5 +215,14 @@
 
   .setores .card:nth-child(3) {
     padding-top: 7rem;
+  }
+
+
+
+  /* INFORMAÇÕES */
+  .perguntas-frequentes {
+    width: 996px;
+    margin: 0 auto;
+    padding: 3rem 0;
   }
 }

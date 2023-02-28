@@ -187,4 +187,26 @@
     padding-top: 3rem;
     margin: 0;
   }
+
+  .setores .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+    padding: 0 7.5rem;
+  }
+
+  .setores .cards .h6 {
+    grid-column: 1/4;
+  }
+
+  .setores .card {
+    display: flex;
+    gap: 0;
+    padding: 0;
+  }
+
+  .setores .card:nth-child(3) {
+    padding-top: 7rem;
+  }
 }

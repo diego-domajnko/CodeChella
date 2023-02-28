@@ -4,14 +4,17 @@
   background-image: url(../img/ingresso-banner.jpg);
 }
 
-.ingresso__conteudo {
-  padding: 2rem 1.5rem;
+.ingresso__conteudo,
+.ingresso__form {
   display: grid;
+}
+
+.ingresso__conteudo {
   gap: 3rem;
+  padding: 2rem 1.5rem;
 }
 
 .ingresso__form {
-  display: grid;
   gap: 2rem;
 }
 
@@ -41,18 +44,18 @@
 /********************* TABLET  *******************/
 @media (min-width: 768px) {
   .ingresso__conteudo {
-    padding: 2rem 3.75rem;
     max-width: 800px;
     margin: 0 auto;
+    padding: 2rem 3.75rem;
   }
 }
 
 /********************* DESKTOP *******************/
 @media (min-width: 1440px) {
   .ingresso__conteudo {
-    width: 800px;
     margin: 0 auto;
     padding: 2rem 0;
+    width: 800px;
   }
 
   .ingresso__form {

@@ -3,38 +3,43 @@
   background-image: url(../img/ingresso-comprado-banner.jpg);
 }
 
-.ingresso-comprado__conteudo {
-  padding: 4rem 1.5rem;
+.ingresso-comprado__conteudo,
+.ingresso-comprado__card,
+.card__conteudo {
   display: grid;
   gap: 2rem;
-  max-width: 792px;
+}
+
+.ingresso-comprado__conteudo {
   margin: 0 auto;
+  max-width: 792px;
+  padding: 4rem 1.5rem;
 }
 
 .ingresso-comprado__card {
   background: var(--gradiente-verao);
-  display: grid;
-  gap: 2rem;
-  padding: 2rem;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+}
+
+.card__cabecalho,
+.card__conteudo {
+  display: flex;
 }
 
 .card__cabecalho {
-  display: flex;
-  justify-content: space-between;
   height: 32px;
+  justify-content: space-between;
 }
 
 .card__conteudo {
-  display: flex;
   flex-direction: column;
-  gap: 2rem;
   width: 100%;
 }
 
 .qr-code {
-  max-width: 320px;
   margin: 0 auto;
+  max-width: 320px;
 }
 
 .conteudo__dados-compra {
@@ -55,8 +60,8 @@
 /********************* DESKTOP *******************/
 @media (min-width: 1440px) {
   .ingresso-comprado__conteudo {
-    width: 792px;
     padding: 4rem 0;
+    width: 792px;
   }
 
   .ingresso-comprado .card__conteudo {

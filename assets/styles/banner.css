@@ -1,23 +1,20 @@
 /********************* MOBILE *******************/
 .banner {
-  height: 270px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  height: 270px;
+  justify-content: center;
   position: relative;
 }
 
 .banner__img {
-  width: 100%;
+  background: url("../img/index-banner-verao.jpg") center/cover no-repeat;
   height: 100%;
-  background-image: url("../img/index-banner-verao.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  z-index: -1;
-  opacity: 0.4;
   mix-blend-mode: multiply;
+  opacity: 0.4;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
 .banner__titulo {

@@ -1,22 +1,22 @@
 /********************* MOBILE *******************/
 .cabecalho {
+  align-items: center;
   background-color: var(--azul-escuro);
-  padding: 2rem 1.5rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  left: 0;
+  padding: 2rem 1.5rem;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   z-index: 3;
 }
 
 .cabecalho__nav {
+  text-align: right;
   color: var(--branco);
   position: relative;
   width: 100%;
-  text-align: right;
 }
 
 .nav__icone-menu::before {
@@ -30,21 +30,22 @@
   z-index: 1;
 }
 
-.nav__lista--ativo {
+.nav__lista--ativo,
+.nav__item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
+}
+
+.nav__lista--ativo {
   position: absolute;
   top: calc(100% + 3rem);
   right: -1.5rem;
 }
 
 .nav__item {
-  width: 170px;
-  display: flex;
   align-items: center;
-  gap: 8px;
-  flex-direction: column;
+  width: 170px;
 }
 
 .nav__barra {
@@ -55,10 +56,10 @@
 /********************* TABLET  *******************/
 @media (min-width: 768px) {
   .cabecalho {
-    padding: 2rem 3.75rem;
+    gap: 2rem;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 2rem;
+    padding: 2rem 3.75rem;
   }
 
   .nav__icone-menu,
@@ -80,8 +81,8 @@
 /********************* DESKTOP *******************/
 @media (min-width: 1440px) {
   .cabecalho {
-    padding: 2rem 7.5rem;
     flex-direction: row;
+    padding: 2rem 7.5rem;
   }
 
   .nav__lista {

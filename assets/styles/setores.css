@@ -4,36 +4,38 @@
   background-position: bottom;
 }
 
-.mapa-setores {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.mapa-setores__img {
-  width: 340px;
-  margin: 1.5rem 0;
-}
-
+.mapa-setores,
 .mapa-setores__lista {
   display: flex;
   flex-direction: column;
+}
+
+.mapa-setores {
+  align-items: center;
+  justify-content: center;
+}
+
+.mapa-setores__img {
+  margin: 1.5rem 0;
+  width: 340px;
+}
+
+.mapa-setores__lista {
   gap: 1.5rem;
+  margin: 0 auto;
   text-align: left;
   width: 246px;
-  margin: 0 auto;
 }
 
 .mapa-setores__item {
+  align-items: center;
   display: flex;
   gap: 1rem;
-  align-items: center;
 }
 
 .bg-legenda {
-  width: 2rem;
   height: 2rem;
+  width: 2rem;
 }
 
 .mapa-setores__item:nth-child(2) .bg-legenda {
@@ -75,8 +77,8 @@
 /********************* TABLET  *******************/
 @media (min-width: 768px) {
   .mapa-setores__img {
-    width: 600px;
     height: 600px;
+    width: 600px;
   }
 
   .setores .card__img {
@@ -90,16 +92,16 @@
   .mapa-setores {
     flex-direction: row;
     gap: 5rem;
-    padding-top: 3rem;
     margin: 0;
+    padding-top: 3rem;
   }
 
   .setores .cards {
+    column-gap: 1.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 2rem;
-    column-gap: 1.5rem;
     padding: 2rem 7.5rem;
+    row-gap: 2rem;
   }
 
   .setores .cards .h6 {

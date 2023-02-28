@@ -8,25 +8,25 @@
 }
 
 .perguntas__cards {
-  margin-top: 3rem;
   display: grid;
   gap: 0.5rem;
+  margin-top: 3rem;
   text-align: left;
 }
 
 .pergunta__card__titulo {
-  color: var(--branco);
-  padding: 1rem;
-  background-color: var(--azul-escuro);
-  display: flex;
   align-items: center;
+  background-color: var(--azul-escuro);
+  color: var(--branco);
+  display: flex;
   justify-content: space-between;
+  padding: 1rem;
 }
 
 .pergunta__card__resposta {
-  padding: 1rem;
   background-color: var(--azul-claro);
   margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .resposta__link {
@@ -43,8 +43,8 @@
 /********************* DESKTOP *******************/
 @media (min-width: 1440px) {
   .perguntas-frequentes {
-    width: 996px;
     margin: 0 auto;
     padding: 3rem 0;
+    width: 996px;
   }
 }

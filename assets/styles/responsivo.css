@@ -193,7 +193,7 @@
     grid-template-columns: repeat(3, 1fr);
     row-gap: 2rem;
     column-gap: 1.5rem;
-    padding: 0 7.5rem;
+    padding: 2rem 7.5rem;
   }
 
   .setores .cards .h6 {

@@ -37,6 +37,7 @@ body {
   color: var(--cinza);
   font-family: var(--fonte-principal);
   text-align: center;
+  background: var(--gradiente-verao);
 }
 
 .hidden {
@@ -196,13 +197,6 @@ body {
 .nav__barra {
   border-bottom: 1px solid var(--branco);
   width: 146px;
-}
-
-
-
-/* BACKGROUND */
-.conteudo__bg {
-  background: var(--gradiente-verao);
 }
 
 

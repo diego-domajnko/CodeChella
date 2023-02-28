@@ -25,6 +25,12 @@
 
 
 
+  .conteudo {
+    padding-top: 203px;
+  }
+
+
+
   /* BANNER */
   .banner {
     height: 384px;
@@ -117,10 +123,15 @@
   /* INGRESSOS */
   .ingresso__conteudo {
     padding: 2rem 3.75rem;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
-  .ingresso__conteudo input[type='date'] {
-    width: 453px;
+
+
+  /* INGRESSOS COMPRADOS */
+  .ingresso-comprado__conteudo {
+    padding: 4rem 3.75rem;
   }
 }
 
@@ -140,6 +151,11 @@
     justify-content: flex-end;
   }
 
+
+  
+  .conteudo {
+    padding-top: 131px;
+  }
 
 
   /* BANNER */
@@ -279,5 +295,27 @@
 
   .btn__ingresso {
     grid-area: btn;
+  }
+
+
+  /* INGRESSO COMPRADO */
+  .ingresso-comprado__conteudo {
+    width: 792px;
+    padding: 4rem 0;
+  }
+
+  .ingresso-comprado .card__conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .qr-code {
+    margin: 0;
+  }
+
+  .ingresso-comprado .card__conteudo .h6 {
+    margin-bottom: 1.5rem;
   }
 }

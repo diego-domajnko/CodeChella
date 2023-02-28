@@ -38,6 +38,7 @@ body {
   font-family: var(--fonte-principal);
   text-align: center;
   background: var(--gradiente-verao);
+  position: relative;
 }
 
 .hidden {
@@ -157,6 +158,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
 }
 
 .cabecalho__nav {
@@ -202,6 +208,10 @@ body {
 
 
 /* BANNER */
+.conteudo {
+  padding-top: 131px;
+}
+
 .banner {
   height: 270px;
   display: flex;
@@ -494,6 +504,7 @@ body {
 .ingresso__form select {
   height: 3.5rem;
   padding: 0.625rem;
+  width: 100%;
 }
 
 .btn__ingresso {
@@ -503,4 +514,53 @@ body {
 
 .btn__ingresso::after {
   content: '\f061';
+}
+
+
+
+/* INGRESSO COMPRADO */
+.banner__ingresso-comprado__img {
+  background-image: url(../img/ingresso-comprado-banner.jpg);
+}
+
+.ingresso-comprado__conteudo {
+  padding: 4rem 1.5rem;
+  display: grid;
+  gap: 2rem;
+  max-width: 792px;
+  margin: 0 auto;
+}
+
+.ingresso-comprado__card {
+  background: var(--gradiente-verao);
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card__cabecalho {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+}
+
+.card__conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.qr-code {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.conteudo__dados-compra {
+  display: grid;
+}
+
+.conteudo__dados-compra .h6 {
+  margin-bottom: 1rem;
 }

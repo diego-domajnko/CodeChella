@@ -356,3 +356,22 @@ body {
 .experiencia__img-03 {
   background-image: url(../img/img03-experiencia.jpeg);
 }
+
+
+
+/* SETORES */
+.banner__setores__img {
+  background-image: url(../img/banner-setores.jpg);
+}
+
+.setores__img-01 {
+  background-image: url(../img/img01-setores.jpg);
+}
+
+.setores__img-02 {
+  background-image: url(../img/img02-setores.jpg);
+}
+
+.setores__img-03 {
+  background-image: url(../img/img03-setores.jpeg);
+}

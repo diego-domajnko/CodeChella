@@ -2,6 +2,10 @@
 
 ![Em construção](https://img.shields.io/badge/STATUS-Em%20constru%C3%A7%C3%A3o-orange)
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/120414128/221891058-b5186703-895c-4783-8d33-0e806d6af944.png">
+</div>
+
 <h2>:open_file_folder: Descrição</h2>
 
 > Desafio proposto pela Alura para a criação de um site chamado CodeChella. Neste site é possível consultar a data dos próximos shows que ocorrerão, os setores do estádio para a compra de ingressos, informações da organização dos eventos e a efetuação da compra.

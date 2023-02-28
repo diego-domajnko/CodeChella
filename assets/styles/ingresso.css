@@ -1,0 +1,92 @@
+/********************* MOBILE *******************/
+/* INGRESSO */
+.banner__ingresso__img {
+  background-image: url(../img/ingresso-banner.jpg);
+}
+
+.ingresso__conteudo {
+  padding: 2rem 1.5rem;
+  display: grid;
+  gap: 3rem;
+}
+
+.ingresso__form {
+  display: grid;
+  gap: 2rem;
+}
+
+.ingresso__form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.ingresso__form input,
+.ingresso__form select {
+  height: 3.5rem;
+  padding: 0.625rem;
+  width: 100%;
+}
+
+.btn__ingresso {
+  align-self: center;
+  justify-self: center;
+}
+
+.btn__ingresso::after {
+  content: '\f061';
+}
+
+/********************* TABLET  *******************/
+@media (min-width: 768px) {
+  .ingresso__conteudo {
+    padding: 2rem 3.75rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+/********************* DESKTOP *******************/
+@media (min-width: 1440px) {
+  .ingresso__conteudo {
+    width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  .ingresso__form {
+    display: grid;
+    grid-template-areas: 
+    'nome nome'
+    'email email'
+    'ingresso nascimento'
+    'btn btn'
+    ;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nome {
+    grid-area: nome;
+  }
+
+  .email {
+    grid-area: email;
+  }
+
+  .ingresso {
+    grid-area: ingresso;
+  }
+
+  .nascimento {
+    grid-area: nascimento;
+  }
+
+  .nascimento input[type="date"] {
+    width: 100%;
+  }
+
+  .btn__ingresso {
+    grid-area: btn;
+  }
+}

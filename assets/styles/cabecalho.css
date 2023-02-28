@@ -1,0 +1,91 @@
+/********************* MOBILE *******************/
+.cabecalho {
+  background-color: var(--azul-escuro);
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.cabecalho__nav {
+  color: var(--branco);
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+
+.nav__icone-menu::before {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.nav__lista {
+  background-color: var(--azul-escuro);
+  padding: 1rem;
+  z-index: 1;
+}
+
+.nav__lista--ativo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+  top: calc(100% + 3rem);
+  right: -1.5rem;
+}
+
+.nav__item {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.nav__barra {
+  border-bottom: 1px solid var(--branco);
+  width: 146px;
+}
+
+/********************* TABLET  *******************/
+@media (min-width: 768px) {
+  .cabecalho {
+    padding: 2rem 3.75rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .nav__icone-menu,
+  .nav__barra {
+    display: none;
+  }
+
+  .nav__lista {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .nav__item {
+    width: auto;
+  }
+}
+
+/********************* DESKTOP *******************/
+@media (min-width: 1440px) {
+  .cabecalho {
+    padding: 2rem 7.5rem;
+    flex-direction: row;
+  }
+
+  .nav__lista {
+    gap: 2rem;
+    justify-content: flex-end;
+  }
+}

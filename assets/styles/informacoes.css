@@ -1,0 +1,50 @@
+/********************* MOBILE *******************/
+.banner__info__img {
+  background-image: url(../img/informacoes-banner.jpg);
+}
+
+.perguntas-frequentes {
+  padding: 3rem 1.5rem;
+}
+
+.perguntas__cards {
+  margin-top: 3rem;
+  display: grid;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.pergunta__card__titulo {
+  color: var(--branco);
+  padding: 1rem;
+  background-color: var(--azul-escuro);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pergunta__card__resposta {
+  padding: 1rem;
+  background-color: var(--azul-claro);
+  margin-bottom: 1rem;
+}
+
+.resposta__link {
+  text-decoration: underline;
+}
+
+/********************* TABLET  *******************/
+@media (min-width: 768px) {
+  .perguntas-frequentes {
+    padding: 3rem 3.75rem;
+  }
+}
+
+/********************* DESKTOP *******************/
+@media (min-width: 1440px) {
+  .perguntas-frequentes {
+    width: 996px;
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+}

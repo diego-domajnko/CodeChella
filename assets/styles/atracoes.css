@@ -1,0 +1,76 @@
+/********************* MOBILE *******************/
+.atracoes,
+.atracoes__card,
+.atracoes__card__destaque-alto,
+.atracoes__card__destaque-medio,
+.atracoes__card__destaque-baixo,
+.atracoes__card__bandas {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.atracoes {
+  padding: 0 1.5rem;
+  gap: 0;
+}
+
+.atracoes__titulo {
+  padding: 2rem 0;
+}
+
+.atracoes__card {
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.atracoes__destaque {
+  margin-bottom: 1rem;
+}
+
+.atracoes__card__bandas {
+  gap: 1rem;
+}
+
+/********************* TABLET  *******************/
+@media (min-width: 768px) {
+  .atracoes__titulo {
+    font-size: 64px;
+    line-height: 83px;
+  }
+
+  .atracoes__card__titulo {
+    padding: 0 2.75rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .atracoes__card__barra {
+    border-bottom: 1px solid var(--mostarda);
+    display: inline-block;
+    width: 100%;
+  }
+
+  .atracoes__destaque {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .atracoes__card__bandas {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+/********************* DESKTOP *******************/
+@media (min-width: 1440px) {
+  .atracoes__card__destaque-alto,
+  .atracoes__card__destaque-medio,
+  .atracoes__card__destaque-baixo {
+    flex-direction: row;
+  }
+}

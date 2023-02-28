@@ -1,0 +1,44 @@
+/********************* MOBILE *******************/
+.banner {
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.banner__img {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/index-banner-verao.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+  mix-blend-mode: multiply;
+}
+
+.banner__titulo {
+  width: 90%;
+}
+
+/********************* TABLET  *******************/
+@media (min-width: 768px) {
+  .banner {
+    height: 384px;
+  }
+
+  .banner__titulo {
+    font-size: 64px;
+    line-height: 83px;
+  }
+}
+
+/********************* DESKTOP *******************/
+@media (min-width: 1440px) {
+  .banner {
+    height: 407px;
+  }
+}

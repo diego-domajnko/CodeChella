@@ -1,0 +1,118 @@
+/********************* MOBILE *******************/
+.banner__setores__img{
+  background-image: url(../img/setores-banner.jpg);
+  background-position: bottom;
+}
+
+.mapa-setores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa-setores__img {
+  width: 340px;
+  margin: 1.5rem 0;
+}
+
+.mapa-setores__lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+  width: 246px;
+  margin: 0 auto;
+}
+
+.mapa-setores__item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.bg-legenda {
+  width: 2rem;
+  height: 2rem;
+}
+
+.mapa-setores__item:nth-child(2) .bg-legenda {
+  background-color: #0E7DF1;
+}
+
+.mapa-setores__item:nth-child(3) .bg-legenda {
+  background-color: #FE016E;
+}
+
+.mapa-setores__item:nth-child(4) .bg-legenda {
+  background-color: #01A89E;
+}
+
+.mapa-setores__item:nth-child(5) .bg-legenda {
+  background-color: #3F51B5;
+}
+
+.mapa-setores__item:nth-child(6) .bg-legenda {
+  background-color: #0E7DF1;
+}
+
+.cards .h6 {
+  padding: 2rem 1.5rem 0;
+}
+
+.setores__img-01 {
+  background-image: url(../img/setores-img01.jpg);
+}
+
+.setores__img-02 {
+  background-image: url(../img/setores-img02.jpg);
+}
+
+.setores__img-03 {
+  background-image: url(../img/setores-img03.jpg);
+}
+
+/********************* TABLET  *******************/
+@media (min-width: 768px) {
+  .mapa-setores__img {
+    width: 600px;
+    height: 600px;
+  }
+
+  .setores .card__img {
+    height: 239px;
+    width: 382px;
+  }
+}
+
+/********************* DESKTOP *******************/
+@media (min-width: 1440px) {
+  .mapa-setores {
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 3rem;
+    margin: 0;
+  }
+
+  .setores .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+    padding: 2rem 7.5rem;
+  }
+
+  .setores .cards .h6 {
+    grid-column: 1/4;
+  }
+
+  .setores .card {
+    display: flex;
+    gap: 0;
+    padding: 0;
+  }
+
+  .setores .card:nth-child(3) {
+    padding-top: 7rem;
+  }
+}

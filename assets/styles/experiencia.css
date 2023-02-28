@@ -1,0 +1,32 @@
+/********************* MOBILE *******************/
+.banner__experiencia__img {
+  background-image: url(../img/experiencia-banner.jpg);
+  background-position: top;
+}
+
+.experiencia__img-01 {
+  background-image: url(../img/experiencia-img01.jpg);
+}
+
+.experiencia__img-02 {
+  background-image: url(../img/experiencia-img02.jpg);
+}
+
+.experiencia__img-03 {
+  background-image: url(../img/experiencia-img03.jpg);
+}
+
+/********************* TABLET  *******************/
+/* @media (min-width: 768px) {
+} */
+
+/********************* DESKTOP *******************/
+@media (min-width: 1440px) {
+  .experiencia .card:nth-child(3) .card__img {
+    grid-column: 2/3;
+  }
+
+  .experiencia .card:nth-child(3) .card__conteudo {
+    grid-row: 1/2;
+  }
+}

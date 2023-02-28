@@ -91,6 +91,19 @@
   .redes-sociais {
     flex-direction: row;
   }
+
+
+
+  /* SETORES */
+  .mapa-setores__img {
+    width: 600px;
+    height: 600px;
+  }
+
+  .setores .card__img {
+    height: 239px;
+    width: 382px;
+  }
 }
 
 
@@ -163,5 +176,15 @@
   .copyright {
     width: 330px;
     text-align: left;
+  }
+
+
+
+  /* SETORES */
+  .mapa-setores {
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 3rem;
+    margin: 0;
   }
 }

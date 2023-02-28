@@ -362,6 +362,63 @@ body {
 /* SETORES */
 .banner__setores__img {
   background-image: url(../img/banner-setores.jpg);
+  background-position: bottom;
+}
+
+.mapa-setores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa-setores__img {
+  width: 340px;
+  margin: 1.5rem 0;
+}
+
+.mapa-setores__lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+  width: 246px;
+  margin: 0 auto;
+}
+
+.mapa-setores__item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.bg-legenda {
+  width: 2rem;
+  height: 2rem;
+}
+
+.mapa-setores__item:nth-child(2) .bg-legenda {
+  background-color: #0E7DF1;
+}
+
+.mapa-setores__item:nth-child(3) .bg-legenda {
+  background-color: #FE016E;
+}
+
+.mapa-setores__item:nth-child(4) .bg-legenda {
+  background-color: #01A89E;
+}
+
+.mapa-setores__item:nth-child(5) .bg-legenda {
+  background-color: #3F51B5;
+}
+
+.mapa-setores__item:nth-child(6) .bg-legenda {
+  background-color: #0E7DF1;
+}
+
+.card:nth-child(2) {
+  padding-bottom: 0;
 }
 
 .setores__img-01 {

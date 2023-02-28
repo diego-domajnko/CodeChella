@@ -126,7 +126,7 @@ body {
   background-color: var(--roxo-boreal);
 }
 
-.btn__boreal {
+.btn__boreal:hover {
   background-color: #606ADA;
 }
 

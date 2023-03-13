@@ -62,24 +62,38 @@
       <form action="#" method="get" class="ingresso__form">
         <label for="nome" class="nome">
           <span class="h6">Nome completo:</span>
-          <input type="text" id="nome" minlength="3" required>
+          <input type="text" id="nome" minlength="3" placeholder="Digite seu nome" required>
         </label>
         <label for="email" class="email">
           <span class="h6">Email:</span>
-          <input type="email" id="email" required>
+          <input type="email" id="email" minlength="5" placeholder="Digite seu email" required>
+        </label>
+        <label for="cpf" class="cpf">
+          <span class="h6">CPF:</span>
+          <input type="text" name="cpf" id="cpf" minlength="11" placeholder="Digite seu CPF" required>
+        </label>
+        <label for="nascimento" class="nascimento">
+          <span class="h6">Data de nascimento:</span>
+          <input type="date" id="nascimento" required>
+        </label>
+        <label for="setor" class="setor">
+          <span class="h6">Setor:</span>
+          <select id="setor" required>
+            <option value="" disabled selected>Selecione o setor</option>
+            <option value="op1">Pista comum</option>
+            <option value="op2">Pista premium</option>
+            <option value="op3">Cadeiras térreo</option>
+            <option value="op4">Cadeiras superior</option>
+          </select>
         </label>
         <label for="ingresso" class="ingresso">
           <span class="h6">Tipo de ingresso:</span>
           <select id="ingresso" required>
             <option value="" disabled selected>Tipo de ingresso</option>
-            <option value="op1">Ingresso cortesia</option>
-            <option value="op2">Ingresso inteiro</option>
-            <option value="op3">Ingresso meia entrada</option>
+            <option value="op1">Ingresso inteiro</option>
+            <option value="op2">Ingresso meia entrada</option>
+            <option value="op3">Ingresso cortesia</option>
           </select>
-        </label>
-        <label for="nascimento" class="nascimento">
-          <span class="h6">Data de nascimento:</span>
-          <input type="date" id="nascimento" required>
         </label>
         <button class="btn btn__verao btn__ingresso" type="submit">Avançar</button>
       </form>

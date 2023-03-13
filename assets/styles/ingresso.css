@@ -64,7 +64,8 @@
     grid-template-areas: 
     'nome nome'
     'email email'
-    'ingresso nascimento'
+    'cpf nascimento'
+    'setor ingresso'
     'btn btn'
     ;
     grid-template-columns: 1fr 1fr;
@@ -76,6 +77,14 @@
 
   .email {
     grid-area: email;
+  }
+
+  .cpf {
+    grid-area: cpf;
+  }
+
+  .setor {
+    grid-area: setor;
   }
 
   .ingresso {

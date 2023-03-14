@@ -3,16 +3,14 @@
 ![Em construção](https://img.shields.io/badge/STATUS-Em%20constru%C3%A7%C3%A3o-orange)
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/120414128/221891058-b5186703-895c-4783-8d33-0e806d6af944.png#vitrinedev">
+  <img src="https://user-images.githubusercontent.com/120414128/225035138-7afe0dfb-973a-42fa-a0d1-cd8bcd90b5d9.png#vitrinedev">
 </div>
 
 <h2>:open_file_folder: Descrição</h2>
 
 > Desafio proposto pela Alura para a criação de um site chamado CodeChella. Neste site é possível consultar a data dos próximos shows que ocorrerão, os setores do estádio para a compra de ingressos, informações da organização dos eventos e a efetuação da compra.
 
-É um projeto onde a cada semana é lançado um novo desafio em relação a criação deste site. Até o momento foi disponibilizado a primeira parte (semana 1) do desafio, onde a propsota era criar para mobile, tablet e desktop as páginas inicial, de informações e de setores. 
-
-> Para além da proposta, criei as demais páginas existentes no site, concluindo a versão do layout verão da CodeChella.
+Esse projeto consiste na criação dos códigos conforme o desafio for sendo lançado, uma vez por semana, durante 4 semanas.
 
 <h2>:hammer: Tecnologias</h2>
 
@@ -25,7 +23,7 @@
       <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="50px" height="50px"/></a>
     </th>
     <th>
-      <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50px" height="50px"/></a>
+      <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40px" height="40px"/></a>
     </th>
   </tr>
   <tr>

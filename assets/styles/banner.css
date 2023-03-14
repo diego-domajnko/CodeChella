@@ -18,6 +18,16 @@
   z-index: -1;
 }
 
+.dark-mode .banner__img {
+  mix-blend-mode: normal;
+}
+
+.dark-mode .index .banner__img {
+  background-image: url("../img/index-banner-boreal.jpg");
+  mix-blend-mode: unset;
+  opacity: 1;
+}
+
 .banner__titulo {
   width: 90%;
 }

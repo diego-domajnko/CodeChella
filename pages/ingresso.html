@@ -46,6 +46,10 @@
         </li>
         <li class="nav__item">
           <a href="./ingresso.html" class="p-bold nav__link">Ingresso</a>
+          <i class="nav__barra"></i>
+        </li>
+        <li class="nav__item">
+          <button class="p-bold nav__link nav__btn-tema">Mudar tema</button>
         </li>
       </ul>
     </nav>
@@ -79,20 +83,38 @@
         <label for="setor" class="setor">
           <span class="h6">Setor:</span>
           <select id="setor" required>
-            <option value="" disabled selected>Selecione o setor</option>
-            <option value="op1">Pista comum</option>
-            <option value="op2">Pista premium</option>
-            <option value="op3">Cadeiras térreo</option>
-            <option value="op4">Cadeiras superior</option>
+            <option value="" disabled selected>Escolha o setor</option>
+            <option value="pista">Pista comum</option>
+            <option value="pista">Pista premium</option>
+            <option value="cadeiras">Cadeiras térreo</option>
+            <option value="cadeiras">Cadeiras superior</option>
+          </select>
+        </label>
+        <label for="zona" class="zona">
+          <span class="h6">Zona:</span>
+          <select id="zona" required disabled>
+            <option value="" disabled selected>Escolha uma zona</option>
+            <option value="op1">1A</option>
+            <option value="op2">13A</option>
+            <option value="op3">27B</option>
+            <option value="op3">31B</option>
           </select>
         </label>
         <label for="ingresso" class="ingresso">
           <span class="h6">Tipo de ingresso:</span>
           <select id="ingresso" required>
-            <option value="" disabled selected>Tipo de ingresso</option>
+            <option value="" disabled selected>Escolha o tipo de ingresso</option>
             <option value="op1">Ingresso inteiro</option>
-            <option value="op2">Ingresso meia entrada</option>
+            <option value="op2">Ingresso meia entrada/estudante</option>
             <option value="op3">Ingresso cortesia</option>
+          </select>
+        </label>
+        <label for="data" class="data">
+          <span class="h6">Data do show:</span>
+          <select id="data" required>
+            <option value="" disabled selected>Escolha uma data</option>
+            <option value="op1">11/03</option>
+            <option value="op2">12/03</option>
           </select>
         </label>
         <button class="btn btn__verao btn__ingresso" type="submit">Avançar</button>

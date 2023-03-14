@@ -3,10 +3,18 @@
   background-color: var(--amarelo);
 }
 
+.dark-mode .rodape {
+  background-color: transparent;
+}
+
 .rodape__img {
   background: url(../img/index-img02.jpg) center/cover no-repeat;
   height: 338px;
   mix-blend-mode: multiply;
+}
+
+.dark-mode  .rodape__img {
+  background-image: url(../img/index-img02-boreal.jpg);
 }
 
 .rodape__conteudo {

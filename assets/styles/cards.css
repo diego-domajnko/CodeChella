@@ -16,6 +16,10 @@
   height: 381px;
 }
 
+.dark-mode .index .card__img {
+  background-image: url(../img/index-img01-boreal.jpg);
+}
+
 .card__conteudo {
   align-items: center;
 }

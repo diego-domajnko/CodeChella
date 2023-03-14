@@ -22,6 +22,10 @@
   padding: 2rem;
 }
 
+.dark-mode .ingresso-comprado__card {
+  background: var(--gradiente-boreal);
+}
+
 .card__cabecalho,
 .card__conteudo {
   display: flex;
@@ -43,11 +47,13 @@
 }
 
 .conteudo__dados-compra {
-  display: grid;
+  gap: 1rem;
 }
 
-.conteudo__dados-compra .h6 {
-  margin-bottom: 1rem;
+.conteudo__dados-compra,
+.infos-compra,
+.infos-show {
+  display: grid;
 }
 
 /********************* TABLET  *******************/
@@ -61,7 +67,7 @@
 @media (min-width: 1440px) {
   .ingresso-comprado__conteudo {
     padding: 4rem 0;
-    width: 792px;
+    max-width: 850px;
   }
 
   .ingresso-comprado .card__conteudo {
@@ -75,7 +81,11 @@
     margin: 0;
   }
 
-  .ingresso-comprado .card__conteudo .h6 {
-    margin-bottom: 1.5rem;
+  .conteudo__dados-compra {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nome-comprador {
+    grid-column: 1/3;
   }
 }

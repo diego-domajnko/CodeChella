@@ -29,6 +29,10 @@
   padding: 1rem;
 }
 
+.dark-mode .pergunta__card__resposta {
+  color: var(--cinza);
+}
+
 .resposta__link {
   text-decoration: underline;
 }

@@ -41,6 +41,11 @@ body {
   position: relative;
 }
 
+.dark-mode {
+  color: var(--branco);
+  background: var(--gradiente-boreal);
+}
+
 .hidden {
   display: none;
 }
@@ -112,21 +117,18 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-}
-
-.btn__verao {
   background-color: var(--azul-escuro);
 }
 
-.btn__verao:hover {
+.btn:hover {
   background-color: #519EC5;
 }
 
-.btn__boreal {
+.dark-mode .btn {
   background-color: var(--roxo-boreal);
 }
 
-.btn__boreal:hover {
+.dark-mode .btn:hover {
   background-color: #606ADA;
 }
 
@@ -140,12 +142,9 @@ body {
   display: inline-block;
   text-transform: uppercase;
   color: var(--branco);
-}
-
-.destaque__verao {
   background-color: var(--mostarda);
 }
 
-.destaque__boreal {
+.dark-mode .destaque {
   background-color: var(--verde-escuro);
 }

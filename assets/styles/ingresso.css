@@ -42,6 +42,12 @@
   content: '\f061';
 }
 
+.dark-mode input,
+.dark-mode input::placeholder,
+.dark-mode select {
+  color: var(--cinza);
+}
+
 /********************* TABLET  *******************/
 @media (min-width: 768px) {
   .ingresso__conteudo {
@@ -65,7 +71,8 @@
     'nome nome'
     'email email'
     'cpf nascimento'
-    'setor ingresso'
+    'setor zona'
+    'ingresso data'
     'btn btn'
     ;
     grid-template-columns: 1fr 1fr;
@@ -87,8 +94,16 @@
     grid-area: setor;
   }
 
+  .zona {
+    grid-area: zona;
+  }
+
   .ingresso {
     grid-area: ingresso;
+  }
+
+  .data {
+    grid-area: data;
   }
 
   .nascimento {
